@@ -1,0 +1,99 @@
+header{
+    background-image: url("fondo_empresa.jpg");
+    background-size: cover;
+    text-align: center;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #f3dcc7;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+nav{
+text-align: center;
+padding: 20px;
+background-color: #DB655C;
+}
+.divcontenedor{
+    background-color: #fa8072;
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    border-radius: 5px; 
+    margin: 60px 200px 200px 200px;
+    flex-wrap: wrap;
+}
+
+.Cliente{
+    display: flex;
+    background-color: #ffd4c0;
+    height: 200px;
+    margin: 20px 0px 10px 60px;
+    border-radius: 10px;
+    width: 400px;
+    justify-content: space-around;
+}
+h2{
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+    font-size: 4rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#DB7B5C;
+    letter-spacing: 3px; 
+}
+.historia{
+    text-align: center;
+    font-size: 1.5rem; 
+    color: #333; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    margin: 20px auto; 
+    line-height: 1.8; 
+}
+h1{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 4rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    letter-spacing: 3px;  
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #DB7B5C;
+}
+.imagencliente{
+    height: 200px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+}
+footer a{
+    margin: 30px;
+}
+nav a {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav :hover{
+    background-color:#f3dcc7;
+    padding: 21px;
+}
